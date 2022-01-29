@@ -1,17 +1,23 @@
-name: "2022_BB_004_inStim_BJAB_DAUDI"
+name: Instim_BJAB_DAUDI
 output_dir: ../docs
 navbar:
-  title: "2022_BB_004_inStim_BJAB_DAUDI"
+  title: Instim_BJAB_DAUDI
   left:
   - text: Home
     href: index.html
-  - text: About
-    href: about.html
+  - text: Gating
+    href: gating.html
+  - text: Plots
+    href: plots.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/BabetBollen/2022_BB_004_inStim_BJAB_DAUDI
 output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
-    theme: cosmo
+    theme: journal
     highlight: textmate
